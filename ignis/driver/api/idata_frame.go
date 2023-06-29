@@ -15,6 +15,7 @@ const (
 	MEMORY     int8 = 2
 	RAW_MEMORY int8 = 3
 	DISK       int8 = 4
+        CHECKPOINT int8 = 5
 )
 
 type IDataFrame[T any] struct {
